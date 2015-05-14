@@ -1,0 +1,27 @@
+{
+    "name": "mrssoft/yii2-typograph",
+    "version": "1.0.0",
+    "description": "Yii2 typograph",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","typograph"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Melnikov Ruslan",
+            "email": "mrs2000@inbox.ru"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "mrssoft/yii2-image": "dev-master",
+        "mrssoft/yii2-mrs2000box": "dev-master",
+        "mrssoft/yii2-elfinder": "dev-master",
+        "mihaildev/yii2-ckeditor": "*",
+        "2amigos/yii2-transliterator-helper": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "mrssoft\\typograph\\": ""
+        }
+    }
+}
