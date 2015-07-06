@@ -8,7 +8,7 @@ use yii\validators\Validator;
  */
 class TypographFilter extends Validator
 {
-    public $method = '\mrssoft\typograph\TypografRU';
+    public $method = '\mrssoft\typograph\Mdash';
 
     public $skipOnError = true;
 
