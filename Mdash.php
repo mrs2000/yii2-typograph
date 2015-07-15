@@ -22,7 +22,12 @@ class MDash implements TypographBase
             CURLOPT_CONNECTTIMEOUT => 20,
             CURLOPT_POST => true,
             CURLOPT_POSTFIELDS => [
-                'text' => $text
+                'text' => $text,
+                'Text.paragraphs' => 'off',
+                'Text.breakline' => 'off',
+                'OptAlign.all' => 'off',
+                'Etc.unicode_convert' => 'off',
+                'Nobr.spaces_nobr_in_surname_abbr' => 'off'		
             ]
         ]);
 
