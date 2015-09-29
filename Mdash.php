@@ -27,7 +27,8 @@ class MDash implements TypographBase
                 'Text.breakline' => 'off',
                 'OptAlign.all' => 'off',
                 'Etc.unicode_convert' => 'off',
-                'Nobr.spaces_nobr_in_surname_abbr' => 'off'		
+                'Nobr.spaces_nobr_in_surname_abbr' => 'off',
+				'Etc.split_number_to_triads' => 'off'
             ]
         ]);
 
